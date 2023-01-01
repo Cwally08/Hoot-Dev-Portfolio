@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Hoot-Dev-Portfolio/static/css/main.c263f9c6.css",
+    "main.js": "/Hoot-Dev-Portfolio/static/js/main.95119faa.js",
+    "static/js/787.128fc6e9.chunk.js": "/Hoot-Dev-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/hoot.png": "/Hoot-Dev-Portfolio/static/media/hoot.51e18bf19051d3d4f3c0.png",
+    "static/media/pic.png": "/Hoot-Dev-Portfolio/static/media/pic.816867a79018aecdbc3b.png",
+    "static/media/skill4.png": "/Hoot-Dev-Portfolio/static/media/skill4.c98ddcea0f3dda276aa1.png",
+    "static/media/skill2.png": "/Hoot-Dev-Portfolio/static/media/skill2.fd373eec9017cf21b26d.png",
+    "static/media/skill1.png": "/Hoot-Dev-Portfolio/static/media/skill1.c5673894e81ac648da9d.png",
+    "index.html": "/Hoot-Dev-Portfolio/index.html",
+    "main.c263f9c6.css.map": "/Hoot-Dev-Portfolio/static/css/main.c263f9c6.css.map",
+    "main.95119faa.js.map": "/Hoot-Dev-Portfolio/static/js/main.95119faa.js.map",
+    "787.128fc6e9.chunk.js.map": "/Hoot-Dev-Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c263f9c6.css",
+    "static/js/main.95119faa.js"
+  ]
+}
