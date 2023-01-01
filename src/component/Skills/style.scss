@@ -1,0 +1,35 @@
+.skills {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    
+.box{
+    display: inline-block;
+    text-align: center;
+    padding: 1px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #e2e8ec, #e2e8ec);
+    box-shadow: 4px 4px 8px #e2e8ec, 4px -4px 8px rgb(73, 72, 72);
+    img{
+        width: 60px;
+    }
+    .log{
+        
+        cursor: pointer;
+        
+        &:hover img{
+            transform: scale(1.5);
+          }
+    }
+    .all{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 45px;
+        text-align: center;
+    }
+    h1 {
+        padding: 10px;
+    }
+    
+}
+}

@@ -1,0 +1,34 @@
+import React from 'react'
+import "./About.scss"
+import Card from "./Card"
+import data from "./AboutApi"
+const About = () => {
+  return (
+    <>
+      <section className="about top" id="about">
+        <div className="container">
+            <div className="heading text-center">
+                <h4>About</h4>
+                <h1>What I do</h1>
+            </div>
+            <div className="content grid">
+            {data.map((val, index) => {
+              return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
+            })}
+
+            {/*<div className='box btn_shadow'>
+              <img src='https://img.icons8.com/glyph-neue/64/000000/polyline.png' alt='' />
+              <h2>Personal Portfolio April</h2>
+              <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
+              <a href=''>
+                <i class='fas fa-arrow-right'></i>
+              </a>
+            </div>*/}
+            </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default About

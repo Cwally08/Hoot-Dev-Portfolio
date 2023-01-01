@@ -1,0 +1,164 @@
+
+.contact {
+margin: 0%;
+padding: 5px;
+
+.content{
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 23px;
+ 
+  
+.contact-form {
+  width: 750px;
+  
+  
+
+  ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          margin-bottom: 10px;
+          overflow: hidden;
+          display: block;
+          position: relative;
+          
+          
+          clear: both;
+      }
+      li.half{
+          width: 49%;
+          margin-left: 2%;
+          float: left;
+          clear: none;
+
+          &:first-child {
+              margin-left: 0;
+          }
+      }
+      
+  }
+  input[type='text'],
+  input[type='email'] {
+      width: 100%;
+      border: 0;
+      background: #cedce4;
+      height: 50px;
+      font-size: 16px;
+      color: rgb(7, 7, 7);
+      padding: 0 20px;
+      box-sizing: border-box;
+  }
+  textarea{
+      width: 100%;
+      border: 0;
+      background: #cedce4;
+      height: 50px;
+      font-size: 16px;
+      color: rgb(7, 7, 7);
+      padding: 20px;
+      min-height: 150px;
+      box-sizing: border-box;
+  }
+  .flat-button{
+      color: black;
+      background: #e2e8ec;
+      font: 11px;
+      letter-spacing: 3px;
+      text-decoration: none;
+      padding: 8px 10px;
+      float: right;
+      border-radius: 6px;
+      cursor: pointer;
+      
+      
+      &:hover {
+        background: #3C2317;
+        color: #CA955C;
+      }
+  }
+  
+
+}
+
+
+.info-map{
+  position: absolute;
+  background-color: #3C2317;
+  z-index: 999999;
+  width: 267px;
+  padding: 10px;
+  color: black;
+  font-family: 'Helvetica';
+  font-size: 15px;
+  font-weight: 300;
+  bottom: 20px;
+  &:hover {
+    color:#cedce4;
+  }
+  span {
+      font-size: 16px;
+      display: block;
+      padding-top: 20px;
+      color: #FD841F;
+
+      
+  }
+  
+}
+
+.map-wrap {
+  background: rgba(8, 253, 216, 0.1);
+  float: right;
+  width: 420px;
+  height: 100%; 
+  margin-right: -10px;
+  margin-left: -10px;
+  
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+}
+
+}
+.bounce {
+  padding: 7px;
+  width: 60px;
+  height: 60px ;
+  margin-left: 48%;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}

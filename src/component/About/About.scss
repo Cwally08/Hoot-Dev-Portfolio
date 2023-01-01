@@ -1,0 +1,37 @@
+
+.about {
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    .box{
+        padding: 30px;
+        
+
+        h2{
+            margin: 20px 0 20px 0;
+        }
+
+        p{
+            word-spacing: 2px;
+            transition: 0.5s;
+
+            &:hover {
+                color: white;
+            }
+        }
+        i{
+            font-size: 30px;
+            margin-top: 20px;
+            transition: 0.5s;
+            opacity: 0;
+
+            
+        }
+        
+    }
+    &:hover i{
+        color: white;
+        opacity: 1; 
+    }
+    
+}

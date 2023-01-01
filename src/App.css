@@ -1,38 +1,114 @@
-.App {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #ecf0f3;
+  
+}
+.container{
+  min-width: 95%;
+  margin: auto;
+  
+}
+.d_flex{
+  display: flex;
+  justify-content: space-between;
+}
+.f_flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.btn_shadow{
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  color: #000;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  
+}
+
+.btn_shadow:hover {
+  background: #CA955C;
+  color: white;
+  transform: translateY(-10px);
+}
+.row, .left, .right {
+  width: 50%;
+}
+.top {
+  margin-top: 40px;
+}
+.mtop{
+  margin-top: 30px;
+}
+.heading{
+  margin: 49px;
+}
+.heading h4{
+  color: #876445;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.heading h1{
+  font-size: 60px;
+  color: #3c3e41;
+}
+h1{
+  color: #3c3e41;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+p {
+  color: #3c3e41
+}
+.text-center {
   text-align: center;
 }
+.scrollTop {
+  position: fixed;
+  bottom: 15px;
+  right: -10px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scrollTop img {
+  width: 50px;
 }
