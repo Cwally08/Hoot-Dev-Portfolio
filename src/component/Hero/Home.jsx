@@ -12,7 +12,7 @@ const Home = () => {
         
         <div className="container f_flex top">
             <div className="left top">
-                <h3>Welcome to my life</h3>
+                <h3>Welcome to my Portfolio</h3>
                 <h1>Hi, I'm <span>Christian Wally Atendido</span></h1>
                 <h2> a <span>
                 <Typewriter
